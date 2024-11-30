@@ -8,49 +8,13 @@ body{
   background-color: #cce5fe;
 }
 
-h1{
+h1, h2{
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
   margin-top: 50px;
   color: #009cdc;
 }
-.contenedor-div-formulario{
-  text-align: center;
-  margin: 100px auto;
-}
-.contenedro-form{
-  width: 500px;
-  margin: 0px auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: normal;
-  background-color: #009cdc;
-  padding: 30px;
-  border-radius: 20px;
-  color: white;
-}
-.input_titulo{
-  margin-bottom: 30px;
-  border-radius: 4px;
-  padding: 5px;
-}
-.botonEnvTarea{
-  padding: 10px;
-  border-radius: 4px;
-  font-weight: 500;
-  margin-bottom: 30px;
-  text-align: center;
-  width: 155px;
-  background-color: #593196;
-  color: white;
-}
-.descrip_tarea{
-  border-radius: 4px;
-  padding: 7px;
-}
-.titulo_tarea{
-  font-size: 28px;
-  font-weight: 400;
+h2{
+  color:#03597b
 }
