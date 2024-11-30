@@ -4,19 +4,14 @@
     border-radius: 4px;
     padding: 5px;
   }
-  .botonEnvTarea{
+  .botonBorrTarea, .botonActTarea{
     padding: 10px;
     border-radius: 4px;
     font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
-    width: 155px;
     background-color: #593196;
     color: white;
-  }
-  .botonEnvTarea:hover{
-    padding: 12px;
-    background-color: #4d1d94;
   }
   .descrip_tarea{
     border-radius: 4px;
@@ -25,4 +20,10 @@
   .titulo_tarea{
     font-size: 28px;
     font-weight: 400;
+  }
+  .contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
