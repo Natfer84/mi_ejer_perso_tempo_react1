@@ -25,7 +25,7 @@ function FormularioModTarea() {
   
             <input
               type="submit"
-              value="CAMBIAR TAREA"
+              value="ACTUALIZAR TAREA"
               className="botonCambiarTarea"
             ></input>
   
