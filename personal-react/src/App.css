@@ -1,38 +1,56 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+
+html, 
+body{
+  font-size: 18px;
+  background-color: #cce5fe;
+}
+
+h1{
+  font-weight: 700;
+  line-height: 1.1;
   text-align: center;
+  margin-top: 50px;
+  color: #009cdc;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contenedor-div-formulario{
+  text-align: center;
+  margin: 100px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contenedro-form{
+  width: 500px;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  align-items: normal;
+  background-color: #009cdc;
+  padding: 30px;
+  border-radius: 20px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.input_titulo{
+  margin-bottom: 30px;
+  border-radius: 4px;
+  padding: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.botonEnvTarea{
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 155px;
+  background-color: #593196;
+  color: white;
+}
+.descrip_tarea{
+  border-radius: 4px;
+  padding: 7px;
+}
+.titulo_tarea{
+  font-size: 28px;
+  font-weight: 400;
 }
