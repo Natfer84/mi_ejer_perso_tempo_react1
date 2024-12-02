@@ -17,11 +17,15 @@ function Formulario() {
           placeholder="Descripción de la tarea"
         ></textarea>
         <br></br>
-        <input
-          type="submit"
-          value="ENVIAR TAREA"
-          className="botonEnvTarea"
-        ></input>
+
+        <div className="contenedor-botones">
+          <input
+            type="submit"
+            value="ENVIAR TAREA"
+            className="botonEnvTarea"
+          ></input>
+        </div>
+
       </form>
     </div>
   );
